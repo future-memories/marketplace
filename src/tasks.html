@@ -4,14 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FM Marketplace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/tasks.css">
 </head>
 <body>
     <header>
         <h1>Collective Memory</h1>
         <h2>Live Task Index</h2>
-        <img>
+        <img src="/images/logo.png" class="logo" width="75px">
     </header>
-    <main></main>
+    <main>
+        <p>Available tasks:</p>
+        <section id="live">
+            <p>LIVE<span></span></p>
+        </section>
+
+        <section class="task">
+            <!-- Make these <details>? -->
+            <div class="description">
+                <p class="status">AVAILABLE</p>
+                <h1>Document the floods in Valencia</h1>
+                <p class="deadline">Deadline: 10/07/2024 6pm CET</p>
+            </div>
+            <div class="offer">
+                <h1>$80</h1>
+                <p>40 memories</p>
+            </div>
+        </section>
+
+        <section class="task">
+            <div class="description">
+                <p class="status">OVER SUBSCRIBED</p>
+                <h1>Document the president rally</h1>
+                <p class="deadline">Deadline: 10/07/2024 6pm CET</p>
+            </div>
+            <div class="offer">
+                <h1>$100</h1>
+                <p>20 memories</p>
+            </div>
+        </section>
+
+        <section class="task">
+            <div class="description">
+                <p class="status">DONE</p>
+                <h1>Document the ongoing protests in Georgia</h1>
+                <p class="deadline">Deadline: 10/07/2024 6pm CET</p>
+            </div>
+            <div class="offer">
+                <h1>$300</h1>
+                <p>50 memories</p>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
